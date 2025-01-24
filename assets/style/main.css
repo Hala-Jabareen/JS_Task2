@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+h1{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 45px;
+}
+.users{
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.user{
+   
+    width: 30%;
+    background-color: rgb(210,227,252);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    line-height: 50px;
+    min-width: 200px;
+}
+.user:hover{
+    box-shadow: 0 0 15px rgb(210,225,255);
+}
+.user a{
+    text-decoration: none;
+    color:orchid
+    
+}
+.user p{
+    text-decoration: underline;
+}
